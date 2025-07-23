@@ -12,6 +12,11 @@ import SimpleLogin from './SimpleLogin'
 import DataOnclick from "./DataOnclick"
 import ProfileEditor from './ProfileEditor'
 import TodoList from './TodoList';
+// 23-07-2025
+import Mycomponent from './Mycomponent'
+import User from './User'
+import Counters from './Counters'
+import LiveClock from './LiveClock'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,12 +32,20 @@ function App() {
 
 {/* 22-07-2025 */}
 
-
-      {/* <Input /> */}
-      {/* <SimpleLogin /> */}
+      {/* <Input />
+      <SimpleLogin />
       <DataOnclick />
-      {/* <ProfileEditor /> */}
-      <TodoList/>
+      <ProfileEditor />
+      <TodoList/> */}
+
+
+{/* 23-07-2025 */}
+
+{/* <Mycomponent/> */}
+{/* <User/> */}
+{/* <Counters/> */}
+<LiveClock/>
+
 
     </div>
   )
