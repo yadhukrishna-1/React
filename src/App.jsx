@@ -17,6 +17,14 @@ import Mycomponent from './Mycomponent'
 import User from './User'
 import Counters from './Counters'
 import LiveClock from './LiveClock'
+import UseContxt from './UseContxt'
+// 26-07-2025
+import CreateContxt from './CreateContxt'
+import Parent from './Parent'
+import Dad from './Dad'
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +38,7 @@ function App() {
     <Color/> */}
 
 
-{/* 22-07-2025 */}
+      {/* 22-07-2025 */}
 
       {/* <Input />
       <SimpleLogin />
@@ -39,12 +47,19 @@ function App() {
       <TodoList/> */}
 
 
-{/* 23-07-2025 */}
+      {/* 23-07-2025 */}
 
-{/* <Mycomponent/> */}
-{/* <User/> */}
-{/* <Counters/> */}
-<LiveClock/>
+      {/* <Mycomponent/> */}
+      {/* <User/> */}
+      {/* <Counters/> */}
+      {/* <LiveClock/> */}
+
+
+      {/* 26-07-2025 */}
+
+      {/* < CreateContxt /> */}
+      {/* < Parent /> */}
+        <Dad/>
 
 
     </div>
