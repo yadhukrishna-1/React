@@ -15,5 +15,4 @@ const Logg = () => {
         </div>
     )
 }
-
 export default Logg
