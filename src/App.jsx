@@ -22,6 +22,8 @@ import UseContxt from './UseContxt'
 import CreateContxt from './CreateContxt'
 import Parent from './Parent'
 import Dad from './Dad'
+// 28-08-2025
+import Logg from "./Logg"
 
 
 
@@ -37,7 +39,6 @@ function App() {
     <Counter/>
     <Color/> */}
 
-
       {/* 22-07-2025 */}
 
       {/* <Input />
@@ -46,20 +47,23 @@ function App() {
       <ProfileEditor />
       <TodoList/> */}
 
-
       {/* 23-07-2025 */}
 
-      {/* <Mycomponent/> */}
-      {/* <User/> */}
-      {/* <Counters/> */}
-      {/* <LiveClock/> */}
+      {/* <Mycomponent/>
+      <User/>
+      <Counters/>
+      <LiveClock/> */}
 
 
       {/* 26-07-2025 */}
 
       {/* < CreateContxt /> */}
       {/* < Parent /> */}
-        <Dad/>
+      {/* <Dad/> */}
+
+      {/* 28-07-2025 */}
+      < Logg />
+
 
 
     </div>
