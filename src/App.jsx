@@ -26,6 +26,11 @@ import Dad from './Dad'
 import Logg from "./Logg"
 
 
+// 29-07-2025
+import { ThemeProvider } from './ThemeContext'
+import ThemeUser from './ThemeUser'
+
+
 
 
 function App() {
@@ -62,10 +67,12 @@ function App() {
       {/* <Dad/> */}
 
       {/* 28-07-2025 */}
-      < Logg />
+      {/* < Logg /> */}
 
-
-
+      {/* 29-07-2025 */}
+        <ThemeProvider>
+          <ThemeUser/>
+        </ThemeProvider>
     </div>
   )
 }

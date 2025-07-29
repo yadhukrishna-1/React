@@ -14,5 +14,6 @@ const Logg = () => {
             </AuthContext.Provider>
         </div>
     )
+
 }
 export default Logg

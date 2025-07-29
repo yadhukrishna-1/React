@@ -3,13 +3,13 @@ import { AuthContext } from './Logg'
 
 const Home = () => {
 
-const {isLogged, setLogged} = useContext(AuthContext);
+  const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext);
 
   return (
     <div>
-      <h2>{isLogged ? 'Welcome back!': 'Please Log in..'}</h2>
-      <button onClick={()=> setLogged(!isLogged)}>
-        {isLogged ? "Logout" : "Login"}
+      <h2>{isLoggedIn ? 'Welcome back!' : 'Please Log in..'}</h2>
+      <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
+        {isLoggedIn ? "Logout" : "Login"}
       </button>
     </div>
   )
